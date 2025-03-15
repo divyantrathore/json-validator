@@ -1,0 +1,25 @@
+{
+  "name": "json-validator",
+  "version": "1.0.0",
+  "description": "Javascript action to validate json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyantrathore/json-validator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyantrathore/json-validator/issues"
+  },
+  "homepage": "https://github.com/divyantrathore/json-validator#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "ajv": "^8.17.1"
+  }
+}
