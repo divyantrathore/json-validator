@@ -1,0 +1,16 @@
+name: 'Validate JSON'
+description: Validates a JSON against a schema
+inputs:
+  JSON_PATH:
+    description: Path to JSON file
+    required: true
+  SCHEMA_PATH:
+    description: Path to Schema
+    required: true
+  UNIQUE_KEYS:
+    description: Value of this key should be unique
+    required: false
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
